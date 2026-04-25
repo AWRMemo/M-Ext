@@ -3,12 +3,12 @@
   "name": "MV-Adapter Texture Baker",
   "description": "Applies topology-aligned multi-view textures to a 3D mesh.",
   "version": "1.0.0",
+  "generator_class": "MVAdapterNode",
   "nodes": [
     {
       "id": "mv_adapter_texturing",
       "display_name": "Texture Mesh (MV-Adapter)",
       "category": "Texturing",
-      "generator_class": "MVAdapterNode",
       "inputs": [
         {
           "name": "image",
