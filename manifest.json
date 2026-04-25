@@ -8,6 +8,7 @@
       "id": "mv_adapter_texturing",
       "display_name": "Texture Mesh (MV-Adapter)",
       "category": "Texturing",
+      "generator_class": "MVAdapterNode",
       "inputs": [
         {
           "name": "image",
