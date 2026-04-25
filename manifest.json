@@ -1,0 +1,32 @@
+{
+  "extension_id": "mvadapter_texture_pass",
+  "name": "MV-Adapter Texture Baker",
+  "description": "Applies topology-aligned multi-view textures to a 3D mesh.",
+  "version": "1.0.0",
+  "nodes": [
+    {
+      "node_id": "mv_adapter_texturing",
+      "display_name": "Texture Mesh (MV-Adapter)",
+      "category": "Texturing",
+      "inputs": [
+        {
+          "name": "image",
+          "type": "image",
+          "description": "The original 2D reference image."
+        },
+        {
+          "name": "mesh",
+          "type": "mesh",
+          "description": "The chunky, unpainted 3D geometry."
+        }
+      ],
+      "outputs": [
+        {
+          "name": "mesh",
+          "type": "mesh",
+          "description": "The final painted 3D geometry."
+        }
+      ]
+    }
+  ]
+}
